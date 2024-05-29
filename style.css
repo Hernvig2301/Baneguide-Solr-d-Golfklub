@@ -1,0 +1,57 @@
+.cls-1, .cls-2 {
+    isolation: isolate;
+}
+
+.cls-2 {
+    font-size: 11px;
+}
+
+.cls-3 {
+    color: #e6382c;
+    stroke-width: 0px;
+    cursor: pointer;
+}
+
+
+.hide {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    max-height: 65%;
+    box-shadow: 5px 5px 5px 5px #284825;
+}
+
+.one-txt, .two-txt, .three-txt, .four-txt, .five-txt, .six-txt, .seven-txt, .eight-txt, .nine-txt {
+    width: 650px;
+    max-width: 70%;
+    max-height: 95%;
+}
+
+svg {
+    display: flex;
+    width: 800px;
+    max-width: 95%;
+    max-height: 95%;
+    margin-left: 27%;
+}
+
+h1 {
+    font-family: Arvo-Bold, Arvo;
+}
+
+img {
+    max-width: 42%;
+}
+
+@media screen and (max-width: 992px) {
+    .one-txt {
+        left: 15%;
+        max-height: 65%;
+    }
+
+    svg {
+        margin-left: 10%;
+    }
+  }
